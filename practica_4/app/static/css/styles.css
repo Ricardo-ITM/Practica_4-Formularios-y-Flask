@@ -1,0 +1,40 @@
+.tituloEntrada{
+    font-family: Courier New; color: blueviolet;
+}
+
+.formMensaje {
+    display: flex;
+    flex-direction: column;
+}
+
+.bienvenida {
+    text-align: center;
+}
+
+.imagenPortafolio {
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+.rowPortafolio{
+    margin: 8px;
+}
+
+.rowPortafolio .column{
+    float: left;
+    width: 490px;
+}
+
+.rowPortafolio .column .content{
+    padding: 10px;
+}
+
+.fondoIntereses{
+    background-color: rgb(255, 195, 152);
+}
+
+.fondoHobbies{
+    background-color: rgb(203, 255, 126)
+}

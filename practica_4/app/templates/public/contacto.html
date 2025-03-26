@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre.html">Sobre mí</a></li>
+            <li><a href="portafolio.html">Portafolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <h1>Contancto</h1>
+    <h3>Redes Sociales</h3>
+    <a href="https://www.instagram.com/pixeladoio/" target="_blank">Instagram</a>
+    <a href="https://x.com/Pixelado6" target="_blank">Twitter/X</a>
+    <h3>Deja tu comentario</h3>
+    <form class="formMensaje" action="mailto:ejemplo@correo.com" method="post" enctype="text/plain">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required placeholder="Tu nombre...">
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required placeholder="Tu correo electrónico...">
+        
+        <label for="comment">Comentario:</label>
+        <textarea id="comment" name="comment" rows="6" class="textarea" required placeholder="Escribe tu comentario aquí..."></textarea>
+        
+        <input type="submit" value="Enviar Comentario">
+    </form>
+</body>
+</html>

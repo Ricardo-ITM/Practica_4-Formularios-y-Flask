@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.imagenPortafolio {
+.imagen {
     width: 400px;
     height: 200px;
     object-fit: contain;
@@ -22,12 +22,12 @@
     margin: 8px;
 }
 
-.rowPortafolio .column{
+.columnPortafolio{
     float: left;
     width: 490px;
 }
 
-.rowPortafolio .column .content{
+.contentPortafolio{
     padding: 10px;
 }
 

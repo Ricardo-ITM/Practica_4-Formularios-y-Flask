@@ -9,11 +9,11 @@
 <body>
     <nav>
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="sobre.html">Sobre mí</a></li>
-            <li><a href="portafolio.html">Portafolio</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="{{ url_for('inicio') }}">Inicio</a></li>
+            <li><a href="{{ url_for('sobremi') }}">Sobre mí</a></li>
+            <li><a href="{{ url_for('portafolio') }}">Portafolio</a></li>
+            <li><a href="{{ url_for('blog') }}">Blog</a></li>
+            <li><a href="{{ url_for('contacto') }}">Contacto</a></li>
         </ul>
     </nav>
     <hr>

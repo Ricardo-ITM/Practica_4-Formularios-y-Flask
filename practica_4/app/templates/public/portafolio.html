@@ -8,11 +8,11 @@
 <body>
     <nav>
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="sobre.html">Sobre mí</a></li>
-            <li><a href="portafolio.html">Portafolio</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="{{ url_for('inicio') }}">Inicio</a></li>
+            <li><a href="{{ url_for('sobremi') }}">Sobre mí</a></li>
+            <li><a href="{{ url_for('portafolio') }}">Portafolio</a></li>
+            <li><a href="{{ url_for('blog') }}">Blog</a></li>
+            <li><a href="{{ url_for('contacto') }}">Contacto</a></li>
         </ul>
     </nav>
     <hr>
@@ -27,18 +27,18 @@
     
     <h3>Galeria de Imagenes</h3>
     <div class="rowPortafolio">
-        <div class="column">
-            <div class="content">
+        <div class="columnPortafolio">
+            <div class="contentPortafolio">
                 <a href="https://www.figma.com/proto/PYZrAGSf3AXJjh7hGR9eg5/Nexo-Tecnologico?node-id=3-139&starting-point-node-id=3%3A139" target="_blank"><img class="imagen" src="../../static/imgs/proyecto_nexotecnologico.png" alt="Mockup de una pagina web que representa una comunidad del Tecnologico"></a>
             </div>
         </div>
-        <div class="column">
-            <div class="content">
+        <div class="columnPortafolio">
+            <div class="contentPortafolio">
                 <a href="https://www.figma.com/proto/W2FmVBQwgVyJWQv2skXRXU/Untitled?node-id=6-3&starting-point-node-id=6%3A3" target="_blank"><img class="imagen" src="../../static/imgs/proyecto_nexotecnologicoprototipo.png" alt="Pagina de Inicio de Sesion"></a>
             </div>
         </div>
-        <div class="column">
-            <div class="content">
+        <div class="columnPortafolio">
+            <div class="contentPortafolio">
                 <img class="imagen" src="../../static/imgs/webapp_mockup.jpg" alt="Mockup de una pagina web que representa una comunidad del Tecnologico">
             </div>
         </div>
